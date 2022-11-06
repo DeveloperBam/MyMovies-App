@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 20px 10px;
+  margin: 0 25px;
+}
+nav ul li a {
+  color: white;
+}
+nav .logo {
+  color: white;
+  padding: 20px 10px;
+}
+
+#home {
+  background-image: url("../assets/home-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#home #landing {
+  text-align: center;
+}/*# sourceMappingURL=stylesheet.css.map */
